@@ -1,0 +1,508 @@
+
+/* Custom CSS for Routes section */
+.large-image img{
+  width: 1128px;
+  height: 250px;
+  margin-top: -110px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.routes {
+  padding: 50px 0;
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.route {
+  flex: 1;
+  border: 1px solid #ccc;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 360px;
+  height: 420px !important;
+
+}
+
+.Pb span {
+  color: #00613d;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: center;
+}
+
+.pb h6 {
+  color: #4a4a4a;
+  line-height: 21px;
+  text-align: center;
+}
+
+.route-info p {
+  color: #000000;
+  padding: 12px 20px;
+  text-align: left;
+  line-height: 24px;
+  font-size: 16.5px;
+}
+
+.route a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.route a:hover {
+  text-decoration: underline;
+}
+
+.route img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.route .overlay-text {
+  position: absolute;
+  top: 70px;
+  left: 15px;
+  z-index: 3;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 20px;
+  /* Sử dụng giá trị cố định cho padding */
+
+}
+
+.route .overlay {
+  position: absolute;
+  display: inline;
+  font-size: 15px;
+  line-height: 24px;
+
+  top: 50px;
+  left: 15px;
+  z-index: 3;
+  color: #fff;
+  padding: 10px 20px;
+  /* Sử dụng giá trị cố định cho padding */
+
+}
+
+.route-info a {
+  color: #05531d;
+  float: left;
+}
+
+
+
+.route-info span {
+  color: #ff1212;
+  font-weight: bold;
+  float: right;
+}
+
+.route-info div:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+.futa-stats {
+  display: flex;
+  align-items: flex-start;
+}
+
+.futa-stats-left {
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.futa-stats-left div {
+  text-align:left;
+
+}
+
+.futa-stats-left img {
+  margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+.futa-stats-right {
+  text-align: right;
+  margin-left: auto; /* Di chuyển sang bên phải */
+  margin-right: 20px; /* Khoảng cách từ bên phải */
+}
+
+.futa-stats-right img {
+  width: 532px;
+  height: 326px;
+  margin-top: 80px;
+    
+}
+.futa-quality span{
+  color: #00613d;
+  font-size:28px;
+  font-weight:600;
+  line-height:33px;
+  text-align:center;
+  margin-top: 200px;
+}
+.futa-quality-span{
+  color:#4a4a4a;
+  line-height:21px;
+  text-align:center;
+}
+
+.futa-stats-left p {
+line-height:24px;
+ margin-left: 3cm;
+ color: #637280;
+   line-height:24px;
+    text-align: left;
+    margin-top: -30px;
+}
+.lg{
+  font-size:30px;
+  font-weight:600;
+  line-height:36px;
+
+}
+.sm{
+  display:inline;
+  font-weight:600;
+line-height:24px;
+
+}
+/* CSS cho mỗi ảnh khuyến mãi */
+.promo-item {
+  width: 352px;
+  height: 190px;
+  margin-right: 10px;  /* Khoảng cách giữa các ảnh */
+  transition: transform 0.2s;
+  line-height: 24px;
+
+}
+
+/* CSS cho nhóm ảnh khuyến mãi */
+.promo-group {
+  display: flex;
+  justify-content: center; /* Đặt ảnh bên trái */
+  align-items: center;
+  flex-wrap: wrap; /* Cho phép các ảnh chuyển hàng khi không đủ chiều rộng */
+}
+
+/* Khoảng cách giữa các ảnh */
+.promo-item + .promo-item {
+  margin-left: 10px;
+}
+
+/* Đảm bảo chiều rộng của các ảnh khuyến mãi bằng nhau trên mọi thiết bị */
+@media (max-width: 767px) {
+  .promo-item {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+}
+
+.km span{
+  color:#00613d;
+  font-size:28px;
+  font-weight:600;
+  line-height:33px;
+  text-align:center;
+}
+.dot {
+  border: 5px solid #fffbfb !important; 
+  margin: 0 5px !important; 
+  border-radius: 60% !important; 
+}
+
+
+.control-dots .dot.selected {
+  border: 7px solid #f1530fee !important; 
+  border-radius: 20% !important; 
+  margin: 0 5px !important; /* Khoảng cách giữa các chấm tròn */
+}
+.futa-images {
+  display: flex;
+  width: 260px;
+  height: 150px;
+
+  margin-left: 7cm !important;
+  margin-left: auto;
+}
+
+.image-with-text p { 
+  color:#111111;
+  line-height:24px;
+  width: 250px ;
+  font-weight: bold;
+  font-size: 20px;
+}
+.image-with-text img { 
+  width: 130px ;
+  height: 110px;
+
+}
+.vept{
+  color: orangered !important;
+}
+
+/* trang chu tim chuyến*/
+.nav-tabs .nav-item {
+  margin: 0;
+}
+
+.nav-tabs .nav-link {
+  color: #333; 
+  border: none; 
+}
+
+.nav-tabs .nav-link.active {
+  color: #007bff;
+  border: 2px solid #007bff; 
+  border-radius: 10px;
+  display: flex;
+  flex: 1;
+  background-color: transparent; 
+}
+
+
+
+.pt-40 {
+  padding-top: 10rem !important;
+}
+
+.flex-col {
+  flex-direction: column !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.layout {
+  max-width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-search {
+  top: -80px;
+  left: 0;
+  right: 0;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.flex-1 {
+  padding-right: 10px;
+}
+
+.z-30 {
+  z-index: 30 !important;
+}
+
+.home-search .search-form .label {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+
+
+.ant-radio-group {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, .85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  display: inline-block;
+}
+
+.home-search .search-form {
+ 
+  max-width: 1128px;
+  background: #fff;
+  border: 1px solid rgba(239, 82, 34, .6);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  outline: 8px solid rgba(170, 46, 8, .1);
+}
+
+.pt-4 {
+  padding-top: 1rem !important;
+}
+
+.pb-4 {
+  padding-bottom: 1rem !important;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+
+.grid {
+  display: flex !important;
+}
+
+.input-search {
+  border: 1px solid #dde2e8;
+  padding: 12px 25px;
+  border-radius: 8px;
+  height: 70px;
+  margin-left: 40px;
+}
+
+
+.tab-pane.fade.show.active .input-search {
+  width: 100%; 
+  margin-left: 0; 
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.custom-select::-webkit-select-placeholder {
+  color: transparent;
+}
+
+.custom-datetime-input {
+ 
+  width: 205px;
+  height: 67px;
+ 
+}
+.search-form{
+  height: 30vh;
+  position: relative;
+  .tcx-button{
+    position: absolute;
+    background-color: #ef5222;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 20px;
+    left: 43%;
+    color: white;
+    font-weight: bolder;
+    margin-top: 2.8cm;
+  
+  }
+  .tcx-button:hover{
+    background-color: white;
+    color: #ef5222;
+    border: solid 1px #ef5222;
+    
+  }
+}
+.ant-tabs{
+  .ant-col{
+    text-align: left;
+
+    .ant-select{
+      width: 100%;
+    }
+    
+ }
+  .location-image{
+  text-align: center;
+  margin: 0;
+    .image{
+      padding-top: 35%;
+     
+      }
+    }
+}
+.ant-space{
+  width: 100%;
+  .ant-picker{
+    width: 100%;
+  }
+}
+
+/*timf chuyen -------------------------*/
+.ant-select-selector {
+  height: 70px !important;
+  width: 350px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 10px !important;
+  padding: 12px 25px !important;
+}
+.khuhoiinput .ant-select-selector{
+  height: 70px !important;
+  width: 270px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 10px !important;
+  padding: 12px 25px !important;
+}
+.ant-picker.khuhoiinput
+{
+  height: 70px !important;
+  width: 260px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 10px !important;
+  padding: 12px 25px !important;
+}
+.ant-picker-range ,
+.ant-picker
+{
+  height: 70px !important;
+  width: 320px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 10px !important;
+  padding: 12px 25px !important;
+}
+.ant-select-arrow{
+  margin-right: -1cm;
+}
+.ant-select-selection-placeholder{
+  margin-left: -0.2cm;
+  margin-top: 0.2cm;
+}
+.custom-dropdown-timchuyen{
+  background-color: #ffffff !important;
+  color: #111111;
+}
+
+.ant-select-item.ant-select-item-option.ant-select-item-option-active.ant-select-item-option-selected{
+  background-color: #ffffff;
+  font-size: 20px;
+}
+.timchuyen-ink-bar .ant-tabs-ink-bar {
+  display: none !important;
+}
+
+.ant-radio-checked .ant-radio-inner::after {
+  transform: scale(0.5);
+  opacity: 1;
+  transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  background-color:  #f2754e;
+ 
+}
+.ant-radio-wrapper:hover .ant-radio, .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner {
+  border-color: #f2754e !important;
+}
+
+ .ant-radio-wrapper-checked{
+  color: #f2754e !important;
+}
+.ant-tabs-tab .ant-tabs-tab-active{
+  color: #ef5222 !important;
+  background-color: #f1530fee !important;
+}

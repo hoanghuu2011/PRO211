@@ -1,0 +1,163 @@
+/* CSS cho trang đăng nhập */
+.login {
+  margin-top: 50px;
+  border-radius: 16px;
+  border: 1px solid rgba(239, 82, 34, 0.6);
+  background: #fff;
+  outline: 6px solid rgba(170, 46, 8, 0.063);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: -50px;
+}
+
+.login img {
+  width: 100%;
+}
+
+/* CSS cho tab */
+.tab-form {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  
+}
+
+
+.nav-link {
+  display: block;
+  font-weight: 500!important;
+  text-transform: uppercase!important;
+  font-size: 15px!important;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.nav-link.active {
+  background-color: rgb(255, 255, 255); 
+  color: rgb(248, 23, 16); 
+  border-bottom: 3px solid #f90808;
+  
+}
+/* CSS cho input và nút đăng nhập */
+.ant-input {
+  height: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgba(210, 83, 44, 0.02);
+  padding: 0 10px;
+  font-size: 16px;
+}
+.ant-input-affix-wrapper {
+  position: relative;
+  display: inline-block;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.3s;
+  display: inline-flex;
+  width: 444px !important;
+}
+.ant-btn {
+ 
+ 
+}
+.btn-login {
+  height: 50px !important;
+ 
+  border: 0 !important;
+  border-radius: 30px !important;
+  color: #fff !important;
+  background-color: #f2754e !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s ease-in-out;
+  width: 444px !important;
+  margin-left: -6.5cm;
+}
+.ant-btn:hover, .ant-btn:focus {
+
+  background-color: #e55c2e;
+
+}
+
+
+/* CSS cho liên kết đăng ký */
+.text-center p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.text-center a {
+  color: #f2754e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #f2754e !important;
+ 
+  text-shadow: 0 0 0.25px currentcolor;
+}
+
+.ant-tabs{
+  .ant-form{
+    .ant-form-horizontal{
+      .ant-form-item-control{
+        max-width: 100% !important;
+        .input-form{
+          height: 3rem;
+          border-radius: 5px;
+         
+        }
+       }
+       
+    }
+   
+  }
+}
+.ant-tabs-tab:hover {
+  color: #f2754e !important;
+
+ 
+}
+.ant-tabs-tab {
+  font-size: 18px !important;
+  
+}
+.ant-tabs-tab {
+  font-size: 16px !important;
+}
+.ant-tabs-ink-bar {
+  position: absolute;
+  background: rgb(255, 24, 24) !important;
+  pointer-events: none !important;
+
+}
+.text-center a:hover{
+  color: #f2754e;
+  text-decoration: none;
+  font-weight: bold;
+}
+#basic_email.ant-input{
+  height: 25px !important;
+}
+.dangki-tenTaiKhoan #basic_tenTaiKhoan.ant-input{
+  height: 25px !important;
+}
+.dangki-tenTaiKhoan #basic_matKhau.ant-input{
+  height: 25px !important;
+}
+.dangki-tenTaiKhoan #basic_hoTen.ant-input{
+  height: 25px !important;
+}

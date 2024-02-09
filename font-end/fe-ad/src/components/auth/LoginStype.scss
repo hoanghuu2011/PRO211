@@ -1,0 +1,29 @@
+
+    .login-form {
+        max-width: 300px;
+        margin: auto;
+      
+      }
+
+      .login-form-forgot {
+        float: right;
+      }
+
+      .ant-col-rtl{
+        .login-form-forgot {
+            float: left;
+          }
+      }
+
+      .login-form-button {
+        width: 100%;
+      }
+      .login-form-container {
+        text-align: center;
+      }
+      
+      .form-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 16px;
+      }

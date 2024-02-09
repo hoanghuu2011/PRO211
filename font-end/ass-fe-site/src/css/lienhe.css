@@ -1,0 +1,86 @@
+
+.toggle-button {
+  cursor: pointer;
+}
+
+.custom-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.custom-form .form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CSS trong tệp lienhe.css hoặc bất kỳ tệp CSS nào bạn muốn */
+
+/* Bo tròn cho input text, email, và tel */
+.form-control[type="text"],
+.form-control[type="email"],
+.form-control[type="tel"] {
+  border-radius: 10px;
+  /* Điều chỉnh giá trị theo mong muốn của bạn */
+}
+
+/* Bo tròn cho textarea */
+.form-control[type="text"] {
+  border-radius: 10px;
+  /* Điều chỉnh giá trị theo mong muốn của bạn */
+}
+
+/* Bo tròn cho button Gửi */
+.btn-primary {
+  border-radius: 10px;
+  /* Điều chỉnh giá trị theo mong muốn của bạn */
+}
+
+.form-label {
+  margin-left: -5cm;
+}
+
+.display-5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: black;
+}
+.btn.btn-link.toggle-button{
+  margin-left: -10cm;
+  margin-top: -0.7cm;
+  color:#000000;
+  font-size:14px;
+  line-height:22.001px;
+}
+.mb-3-lienhe h5{
+  color:#ef5222;
+  font-size:18px;
+  font-weight:500;
+  line-height:28px; 
+  width: 360px;
+}
+.lienhe-diachi{
+  color:#111111;
+  display:inline;
+  line-height:30px;
+}
+.text-muted-lienhe{
+ 
+  text-align: left;
+  margin-left: 0.3cm;
+}
+.email-lienhe{
+  align-items:center;
+background-color:
+#ffffff;
+color:
+#ef5222;
+
+font-size:
+20px;
+font-weight:
+600;
+line-height:
+28px;
+}

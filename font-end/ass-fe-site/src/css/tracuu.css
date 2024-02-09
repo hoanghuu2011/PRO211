@@ -1,0 +1,61 @@
+.tracuu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search-input-container {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 600px;
+    border: 1px solid #fd0000;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+.placeholder-label {
+    position: absolute;
+    top: 12px; 
+    left: 290px; 
+    font-size: 12px;
+    padding: 5px;
+    color: #888;
+    display: none; /* Ẩn ban đầu */
+}
+
+.search-input:focus + .placeholder-label {
+    top: -10px;
+    left: 480px;
+    font-size: 12px;
+    transform: translateX(-50%);
+    display: block; /* Hiển thị khi input được tập trung */
+}
+
+.search-input-container:first-child {
+    margin-bottom: 20px;
+}
+
+.search-input-container:last-child {
+    margin-top: 20px;
+}
+
+.search-button {
+    background-color: #ff6f00;
+    color: #000;
+    border: none;
+    width: 224px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+h1{
+    color: #00613d;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 28px;
+}

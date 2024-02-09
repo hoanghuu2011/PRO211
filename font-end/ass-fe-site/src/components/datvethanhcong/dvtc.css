@@ -1,0 +1,101 @@
+.thongtinchuyendi {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.card-header {
+    color: #484848;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-title {
+    margin: 0;
+
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.info-row-dvtc {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    color:#707070;
+    font-size:10px;
+    font-weight:500;
+    line-height:15px;
+    display: flex; 
+    justify-content:space-between ;
+      
+}
+.info-row-dvtc div {
+    padding: 10px 0;
+}
+
+.card.ticket-info {
+    width: 319px;
+    min-height: 600px;
+}
+
+.card.transaction-info {
+    width: 319px;
+    min-height: 317px;
+}
+
+.datvethanhcong {
+    width: 637px;
+    height: 420px;
+
+}
+
+.page-title-dv {
+    color: #0060c4;
+    font-size:18px;
+    font-weight:700;
+    line-height:27px;
+    width: 200px;
+}
+
+.notification span {
+    font-size: 14px;
+}
+
+.subtitle-bien {
+    align-items: center;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-basis: 0%;
+    font-family: -apple-system;
+    justify-content: center ;
+    line-height: 21px;
+    text-align: center;
+    width: 115px;
+    height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.card-lenxe,
+.payment-info,
+.điemon-dv,
+.điemtra-dv {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    width: 700px;
+    margin-left: 4.5cm;
+}
+.pagedatvethanhcong{
+  height: 1200px;
+}
+.subtitle-bien{
+    border-radius: 8px;
+}

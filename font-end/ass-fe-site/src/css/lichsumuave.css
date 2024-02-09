@@ -1,0 +1,41 @@
+.thoigian-dv{
+    width: 148px !important;
+    height: 36px !important;
+    margin-right: 10px !important;
+}
+.trangthai-dv
+{
+    width: 148px ;
+    height: 36px ;  
+}
+.input-search-lsmv {
+    border: 1px solid #dde2e8;
+    padding: 5px 10px;
+    border-radius: 8px;
+    height: 70px;
+  }
+  .tim-lsmv{
+    background-color: #ef5222;
+    width: 80px;
+    height: 36px;
+    border-radius: 20px;
+    left: 43%;
+    color: white;
+    font-weight: bolder;
+  
+  }
+  .tim-lsmv:hover{
+    background-color: white ;
+    color: #ef5222;
+    border: solid 1px #ef5222;
+    
+  }
+  .ant-table-pagination.ant-pagination {
+    position: absolute !important;
+  bottom: 0 !important; 
+  right: 250px !important; 
+  z-index: 1000 !important;
+  left: auto !important;
+  top: 370px !important;
+ 
+}

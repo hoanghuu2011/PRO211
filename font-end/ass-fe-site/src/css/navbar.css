@@ -1,0 +1,205 @@
+/* Navbar styling */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image:url("https://futabus.vn/images/banners/home_banner.png");
+  padding: 10px 20px;
+  width: 100%;
+  height: 200px ;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.logo img{
+  width:  250px;
+  height: 60px;
+  margin-bottom: 400px;
+  margin-left: 12.5cm;
+  margin-bottom: -85px;
+}
+
+.logo{
+  height: 84px;
+  width:  150px;
+  bottom: 2.2cm;
+ 
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0; 
+  padding: 0;
+}
+
+#navbar li {
+  list-style: none;
+  margin: 0;
+  padding: 0 25px;
+  position: relative;
+  font-size:20px;
+  font-weight: 700;
+  line-height:20px;
+  text-align:center;
+ 
+
+}
+#navbar li {
+  margin-left: 25px; /* Khoảng cách giữa các mục menu */
+}
+
+#navbar li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+
+/* #navbar li a:hover::after, */
+#navbar li a.active::after {
+  content: "";
+  margin-bottom: -0.2cm;
+  background-color: rgb(255, 255, 255);
+  width: 100%; /* Thay đổi chiều rộng của thanh gạch dưới */
+  height: 3px;
+  position: absolute;
+  bottom: -4px;
+  left: 0; /* Đặt vị trí bắt đầu từ biên trái của mục menu */
+}
+
+/* Modal styling */
+.login-modal, .signup-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.social-login {
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  background-color: #f2f2f2;
+}
+
+/* Thay đổi style cho nút Đóng */
+.login-modal button, .signup-modal button {
+  background-color: #ccc;
+  color: #333;
+  cursor: pointer;
+  border: none; 
+  padding: 12px; 
+  font-size: 18px;
+}
+
+.login-modal button:hover, .signup-modal button:hover {
+  background-color: #999;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  width: 50%; 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  color: red;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.signup-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 220px;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(46, 46, 46) !important;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+  
+}
+
+.dropdown a:hover {
+  background-color: #eeecec;
+}
+
+.dropdown-container:hover .dropdown {
+  display: block;
+}
+.btn-login-page{
+  color: rgb(0, 0, 0) !important;
+  border-radius: 20px !important;
+  font-size: 14px !important;
+}
+.dropdown-container .text-btn-login-page{
+  color: rgb(234, 55, 55) !important;
+}

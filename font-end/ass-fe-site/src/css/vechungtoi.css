@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Tajawal:wght@700&display=swap');
+
+
+ 
+.ck-content {
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+
+}
+.ck-content2{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px; 
+    margin-left:-100%;
+
+}
+.ck-content2 p {
+    color: #444343;
+    font-size: 17px;
+    position: relative;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem !important;
+    font-weight: 500;
+    width: 700px !important;
+       
+}
+.ck-content p {
+    color: #444343;
+    font-size: 17px;
+    position: relative;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem !important;
+    font-weight: 500;
+}
+
+.v_layout {
+    max-width: 1228px;
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.text-base {
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+}
+
+.v_flex-col {
+    flex-direction: column !important;
+}
+
+.v_flex {
+    display: flex !important;
+}
+
+.v_btnThem {
+    color: #9c9999;
+    font-weight: 700;
+    font-size: 18px !important;
+    gap: 0.5rem !important;
+    justify-content: center !important;
+    width: 7rem !important;
+
+
+}
+
+.v_img {
+    width: 100%;
+
+    height: auto;
+ 
+}
+
+.v_img img {
+    width: 100%;
+ 
+    height: auto;
+}
+.v_img-2{
+   float: right;
+   width: 549px;
+   height: 370px;
+}
+.text-v{
+    color:#ef5222;
+    line-height: 50px!important;
+    font-size: 42px!important;
+    font-weight: 600!important;
+    margin-bottom: 1.5rem!important;
+
+}

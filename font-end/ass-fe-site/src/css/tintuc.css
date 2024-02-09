@@ -1,0 +1,163 @@
+.tintuc-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.tintuc-navbar-brand {
+  text-decoration: none;
+  color: #000000;
+}
+
+.tinctuc-navbar-brand img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.tintuc-nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.tintuc-nav-list li {
+  margin-right: 20px;
+}
+
+.tintuc-nav-list a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.tintuc-form {
+  position: relative;
+}
+
+.tintuc-search-input {
+  border: none;
+  border-radius: 25px;
+  background: #ffffff url('../image/search.svg') no-repeat;
+  background-position: 10px center;
+  padding: 10px 30px 10px 30px;
+  width: 338px;
+  height: 40px;
+}
+
+.tintuc-text-container {
+  margin-right: 6cm;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 3.9cm;
+
+}
+
+.tintuc-text-container .tintuc-horizontal-line {
+  flex-grow: 1;
+  border: 1px solid #00613d;
+  margin: 0 10px;
+
+}
+
+.tintuc-text-container .tintuc-text {
+  color: #00613d;
+  font-size: 28px;
+  /* Kích thước chữ */
+  font-weight: 600;
+  /* In đậm chữ */
+  line-height: 24px;
+}
+
+/* row */
+.card-title-tintuc {
+  color: #111111;
+
+  font-size:
+    15px;
+  font-weight:
+    500;
+  line-height:
+    18px;
+
+}
+
+.card-img-top {
+  margin-top: 10px;
+  width: 270px;
+  height: 154px;
+
+}
+
+.card-img-top-tt {
+  margin-top: 24px;
+  width: 270px;
+  height: 154px;
+  padding: 0 20px;
+
+}
+
+.card-text-tintuc {
+  color: #637280;
+  font-size: 13px;
+}
+
+.square {
+  margin-top: 24px;
+  width: 320px;
+  height: 245px;
+  background-image: url("https://futabus.vn/images/banners/home_banner.png");
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+
+}
+
+.top-text {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.ottom-text-tintuc {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tieudiem {
+  margin-left: 4.7cm;
+}
+
+.page-link {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+  transition: color 0.3s;
+}
+
+.page-link:hover {
+  color: #007bff;
+}
+
+.card-title-tt {
+  color: #111111;
+  font-size:18px;
+  font: weight 600px;;
+  line-height: 22px
+}
+.card-text-tt{
+  color:#637280;
+  display:inline; 
+  font-size:13px;
+  line-height:24px;
+  margin-left: -4cm;
+}

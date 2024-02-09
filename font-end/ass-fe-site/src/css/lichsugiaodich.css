@@ -1,0 +1,91 @@
+.rounded-2xl {
+    border-radius: 1rem!important;
+}
+
+
+.font-medium-giaodich{
+    font-size: 48px!important;
+    color: rgb(239 82 34)!important;
+    height: 57px;
+    font-weight: 500;
+    text-align: left;
+}
+.mt-6.font-medium-lichsu{
+    font-size: 25px!important;
+    color: rgb(0, 0, 0)!important;
+    height: 31px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.ant-table-thead>tr>th {
+    position: relative;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    background: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    padding: 16px;
+    overflow-wrap: break-word;
+    transition: background .3s ease;
+}
+.ant-table table {
+    width: 100%;
+    text-align: left;
+    border-radius: 2px 2px 0 0;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.ant-table-tbody>tr>td {
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    transition: background .3s;
+}
+.ant-empty {
+    margin: 0 8px;
+    font-size: 16px;
+    line-height: 1.5715;
+    text-align: center;
+}
+
+
+.col {
+    flex: 1; /* Phần tử chiếm một phần bằng nhau của không gian */
+    padding: 20px; /* Khoảng cách từ viền */
+}
+
+.conten {
+    text-align: left; /* Căn lề văn bản về trái */
+}
+
+
+.btn_datve{
+    height: 50px;
+    width: 150px;
+    border: 0;
+    color: white;
+    background-color: #ef5222;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.label2 {
+
+margin-left: -40px;
+}
+.btn-lsgd{
+    font-size: 14px;
+    color: rgb(1, 1, 1);
+    border-radius: 20px;
+    height: 40px;
+    width: 96px;
+    background-color:white ;
+    border: 1px solid #9c8686;
+    margin-top: 0.5cm;
+    margin-left: 0.5cm;
+   
+}
+.flex-lichsumuave{
+    border-radius: 30px;
+    border: 1px solid #fef6f3;
+    height: 140px;
+   
+}

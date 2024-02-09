@@ -1,0 +1,23 @@
+
+
+  .ant-upload.ant-upload-select-picture-card {
+    width: 104px;
+    height: 104px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    vertical-align: top;
+    background-color:white !important;
+    border: none !important;
+    cursor: pointer;
+
+}
+/* .ant-upload.ant-upload-select-picture-card img{
+  width: 104px;
+  height: 104px !important;
+
+}
+.ant-btn.ant-btn-default{
+    margin-bottom: -6cm;
+    margin-left: -6cm;
+  } */
